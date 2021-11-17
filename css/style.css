@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://media.truyenhinhdulich.vn/upload/news/2117_3_lang_hoa_mien_tay_ron_rang_khoe_sac_dip_can_tet_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-family: 'Estonia', cursive,'Open Sans', sans-serif;
+}
+
+.count-down__title {
+    margin-bottom: 4rem;
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.count-down__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.count-down__item {
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days,
+.hours,
+.mins,
+.seconds {
+    font-size: 10rem;
+    margin-bottom: 1rem;
+}
+
+.seconds__info,
+.hours__info,
+.mins__info,
+.days__info {
+    font-size: 3rem;
+}
+
